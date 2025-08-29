@@ -3,7 +3,7 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://astro-chiri.netlify.app/', // Site domain
+    website: 'https://jackcooper.qzz.io/', // Site domain
     title: 'Bo', // Site title
     author: 'Junbo', // Author name
     description: 'I shall return to the distant realm, where knowledge knows no bounds.', // Site description
@@ -29,7 +29,7 @@ export const themeConfig: ThemeConfig = {
 
   // POST SETTINGS ///////////////////////////////////////////////////////////////////////////////////////
   post: {
-    readingTime: false, // Show reading time in posts
+    readingTime: true, // Show reading time in posts
     toc: true, // Show table of contents (when there is enough page width)
     imageViewer: true, // Enable image viewer
     copyCode: true, // Enable copy button in code blocks
