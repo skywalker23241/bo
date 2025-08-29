@@ -7,10 +7,11 @@ This content will be displayed at the top of the index page.
 You can leave this empty if you don’t want to show any content.
 -->
 
-A static blog theme based on [Astro](https://astro.build), designed for clarity and focus.
 
-With a deliberately minimal design, this layout ensures your content takes center stage. It's built for flexibility, offering customization options that honor its clean and elegant aesthetic.
+---
+> Panem et circenses<br>
+> — <cite>Juvenal</cite>
 
-Effortlessly share your thoughts in _a calm & dustless space._
+（出自[罗马诗人 Juvenal 的《讽刺诗》“面包与马戏”](https://en.wikipedia.org/wiki/Bread_and_circuses) 中的一段）
 
-Check posts for details and view source on [GitHub](https://github.com/the3ash/astro-chiri).
+“给他们面包和马戏，他们就永远不会反叛”
