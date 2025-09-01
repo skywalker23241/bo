@@ -6,7 +6,10 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
 <header>
   <nav>
     <a href="/">{themeConfig.site.title}</a>
-    <ThemeToggle />
+    <div class="right-section">
+      <a href="https://hopp.bio/junbo-le" target="_blank" rel="noopener noreferrer">Social</a>
+      <ThemeToggle />
+    </div>
   </nav>
 </header>
 <style>
@@ -24,5 +27,10 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
     text-decoration: none;
     min-width: 3rem;
     display: inline-block;
+  }
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 </style>
