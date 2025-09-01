@@ -9,8 +9,11 @@ You can leave this empty if you don’t want to show any content.
 
 
 ---
-> Panem et circenses<br>
-> — <cite>Juvenal</cite>
+
+> Panem et circenses  
+<div style="text-align: right;">— <cite>Juvenal</cite></div>
+
+![Bread and Cricuses](../posts/_assets/breadandcircuses-index.jpg)
 
 （出自[罗马诗人 Juvenal 的《讽刺诗》“面包与马戏”](https://en.wikipedia.org/wiki/Bread_and_circuses) 中的一段）
 

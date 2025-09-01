@@ -3,6 +3,11 @@ import { themeConfig } from '@/config'
 import ThemeToggle from '@/components/ui/ThemeToggle.astro'
 ---
 
+<!-- Top banner -->
+<div class="top-banner">
+  <p>Ceasefire now! 🕊️</p>
+</div>
+
 <header>
   <nav>
     <a href="/">{themeConfig.site.title}</a>
@@ -12,15 +17,33 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
     </div>
   </nav>
 </header>
+
 <style>
+  .top-banner {
+    background-color: #f9a825;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 2px 0;   /* 减小上下 padding */
+    font-size: 13px;  /* 调小字体 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+
   header {
     margin: 0;
   }
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   header a {
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
@@ -28,6 +51,7 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
     min-width: 3rem;
     display: inline-block;
   }
+
   .right-section {
     display: flex;
     align-items: center;
