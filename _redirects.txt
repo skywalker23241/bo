@@ -1,0 +1,9 @@
+# 整站迁移（兜底规则）
+/*    http://jackcooper.qzz.io/:splat    301!
+
+# 推荐的几个页面单独重定向
+/blog/root-one-plus-8t-9008-oxyen-os/    https://jackcooper.qzz.io/root-one-plus-8t-9008-oxyen-os/    301
+/blog/how-to-use-vpn-correctly/         https://jackcooper.qzz.io/a-beginner-s-guide-to-proxy/           301
+/tools/                                 https://jackcooper.qzz.io/online-tools-of-mine/                                   301
+/blog/cooper-s-seo_notes/               http://jackcooper.qzz.io/                301
+/about/                                 http://jackcooper.qzz.io/                                   301
