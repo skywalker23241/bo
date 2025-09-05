@@ -8,6 +8,37 @@
   to = "/_astro/:splat"
   status = 200
 
+[[redirects]]
+  from = "/blog/root-one-plus-8t-9008-oxyen-os"
+  to = "https://jackcooper.qzz.io/root-one-plus-8t-9008-oxyen-os"
+  status = 301
+
+[[redirects]]
+  from = "/blog/how-to-use-vpn-correctly"
+  to = "https://jackcooper.qzz.io/a-beginner-s-guide-to-proxy"
+  status = 301
+
+[[redirects]]
+  from = "/tools"
+  to = "https://jackcooper.qzz.io/online-tools-of-mine"
+  status = 301
+
+[[redirects]]
+  from = "/blog/cooper-s-seo_notes"
+  to = "https://jackcooper.qzz.io/"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "https://jackcooper.qzz.io/"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "https://jackcooper.qzz.io/:splat"
+  status = 301
+  force = true
+
 # Enable Brotli Compression
 [build.processing]
   skip_processing = false
