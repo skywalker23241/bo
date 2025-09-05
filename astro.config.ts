@@ -14,14 +14,14 @@ import remarkTOC from './src/plugins/remark-toc.mjs'
 import { themeConfig } from './src/config'
 import { imageConfig } from './src/utils/image-config'
 import path from 'path'
-import netlify from '@astrojs/netlify'
+import cloudflare from '@astrojs/cloudflare'   // ← 改成 Cloudflare
 
 export default defineConfig({
-  adapter: netlify(), // Set adapter for deployment, or set `linkCard` to `false` in `src/config.ts`
+  adapter: cloudflare(), // ← 改掉 Netlify，切换为 Cloudflare Pages
   site: themeConfig.site.website,
   image: {
     service: {
-      entrypoint: 'astro/assets/services/sharp',
+      entrypoint: 'astro/assets/services/sharp', // ← 本地用 sharp 处理，不再依赖 Netlify Image CDN
       config: imageConfig
     }
   },
